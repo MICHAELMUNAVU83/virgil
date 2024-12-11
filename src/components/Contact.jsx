@@ -106,7 +106,7 @@ const Contact = () => {
       <ToastContainer />
       <div className="w-[100%] flex md:flex-row flex-col gap-8 justify-between items-start">
         <div className="md:w-[48%] w-[100%] flex flex-col gap-4">
-          <h1 className="text-3xl font-bold mt-4 text-[#4285F4] jakarta  md:text-6xl">
+          <h1 className="text-3xl font-bold mt-4 text-[#0b3369] jakarta  md:text-6xl">
             Let's discuss your project
           </h1>
           <h1 className="md:text-xl mt-1 lexend  md:mt-4 text-[#0C1523]  mb-10">
@@ -181,7 +181,7 @@ const Contact = () => {
                 className={`w-full p-4 shadow-xl shadow-gray-400 rounded-xl uppercase ${
                   isSuccess
                     ? "bg-green-500"
-                    : "bg-gradient-to-r from-[#4285F4] to-[#709dff]"
+                    : "bg-gradient-to-r from-[#0b3369] to-[#709dff]"
                 } text-white`}
                 disabled={isSubmitting}
               >

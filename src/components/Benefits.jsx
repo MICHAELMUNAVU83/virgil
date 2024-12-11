@@ -5,7 +5,7 @@ const Benefits = () => {
       className="flex flex-col md:flex-row mx-5 py-20 pt-10 md:mx-24"
     >
       <div className="w-[100%]">
-        <h3 className="capitalize  text-[#4285F4]  py-10 text-xl font-bold jakarta">
+        <h3 className="capitalize  text-[#0b3369]  py-10 text-xl font-bold jakarta">
           Why work with us
         </h3>
         <h1 className="text-[#0C1523] jakarta   w-[100%] font-bold text-[28px] md:text-6xl">
@@ -14,7 +14,7 @@ const Benefits = () => {
         <div className="pt-10">
           <div className="flex flex-col md:flex-row gap-10">
             <div className="md:w-[50%]">
-              <div className="bg-[#4285F4] text-[#fff] rounded-full h-20 w-20 flex flex-col items-center justify-center">
+              <div className="bg-[#0b3369] text-[#fff] rounded-full h-20 w-20 flex flex-col items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -45,7 +45,7 @@ const Benefits = () => {
           </div>
           <div className="flex flex-col md:flex-row mt-5 gap-10">
             <div className="w-[50%]">
-              <div className="bg-[#4285F4] text-[#fff] rounded-full h-20 w-20 flex flex-col items-center justify-center">
+              <div className="bg-[#0b3369] text-[#fff] rounded-full h-20 w-20 flex flex-col items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -83,7 +83,7 @@ const Benefits = () => {
               href="https://calendar.app.google/kpakc9snjHMMzssv6"
               target="_blank"
               rel="noreferrer"
-              className="bg-[#4285F4] lexend  mt-16 text-white text-xl font-medium p-4 rounded-md w-40"
+              className="bg-[#0b3369] lexend  mt-16 text-white text-xl font-medium p-4 rounded-md w-40"
             >
               Book A Call
             </a>

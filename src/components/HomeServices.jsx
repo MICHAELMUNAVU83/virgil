@@ -3,45 +3,45 @@ const HomeServices = () => {
     {
       title: "Web Development",
       description:
-        "We nurture your web and tech assets to optimum levels of perfomance to enhance your whole value proposition and delivery"
+        "We nurture your web and tech assets to optimum levels of perfomance to enhance your whole value proposition and delivery",
     },
     {
       title: "Systems Development",
       description:
-        "Creating augmented systems that bring efficiency and increase productivity to your business, while meeting your growing business needs"
+        "Creating augmented systems that bring efficiency and increase productivity to your business, while meeting your growing business needs",
     },
     {
       title: "AI and Machine Learning",
       description:
-        "Make Smarter decisions powered by AI fueled by years of machine learning. We equip businesses to thrive in an advancing technological world"
+        "Make Smarter decisions powered by AI fueled by years of machine learning. We equip businesses to thrive in an advancing technological world",
     },
     {
       title: "Data Analysis",
       description:
-        "Analyze data at lightning speed to fuel your growth and stay ahead of competition"
+        "Analyze data at lightning speed to fuel your growth and stay ahead of competition",
     },
     {
       title: "Cloud Services",
       description:
-        "Cost effective cloud computing facilities required for infrastructure management, SaaS products and cloud hosting services"
+        "Cost effective cloud computing facilities required for infrastructure management, SaaS products and cloud hosting services",
     },
     {
       title: "Database Management",
       description:
-        "Expert database management that ensures your software always delivers"
+        "Expert database management that ensures your software always delivers",
     },
   ];
 
   return (
     <div id="services">
-      <h3 className="capitalize text-[#4285F4] text-center py-10 text-xl font-bold jakarta">
+      <h3 className="capitalize text-[#0b3369] text-center py-10 text-xl font-bold jakarta">
         Achieve The Extraordinary With Virgil
       </h3>
 
       <div className="grid mt-14 md:mx-24 mx-5 cursor-pointer gap-10 md:grid-cols-2 grid-cols-1">
         {services.map((service, index) => (
           <div className="border-2 p-8 flex flex-col gap-5      transition-all ease-in-out duration-500 cursor-pointer hover:scale-105 hover:shadow-lg rounded-lg">
-            <div className="relative text-[#4285F4]">
+            <div className="relative text-[#0b3369]">
               <div class=" h-[48px] w-[48px] left-[10px] rounded-full flex justify-center items-center bg-[#F5F3FE] bg-opacity-90">
                 {service.title === "Systems Development" && (
                   <svg
@@ -142,7 +142,7 @@ const HomeServices = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-[#4285F4] jakarta font-bold text-3xl">
+              <h3 className="text-[#0b3369] jakarta font-bold text-3xl">
                 {service.title}
               </h3>
               <p className="text-[#585858] lexend  mt-5 inter tracking-wide text-lg">

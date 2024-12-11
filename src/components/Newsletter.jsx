@@ -3,7 +3,7 @@ import React from "react";
 const Newsletter = () => {
   return (
     <div className="relative mt-20">
-      <div className="bg-[#4285F4] p-2 flex justify-center w-3/4 mx-auto items-center transform rotate-[-3deg] z-20">
+      <div className="bg-[#0b3369] p-2 flex justify-center w-3/4 mx-auto items-center transform rotate-[-3deg] z-20">
         <div className="transform -rotate-[-3deg] w-full relative z-10">
           <img
             src="/shape.png"
@@ -25,7 +25,7 @@ const Newsletter = () => {
               />
               <button
                 type="submit"
-                className="text-white bg-[#4285F4] hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 absolute right-2.5"
+                className="text-white bg-[#0b3369] hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 absolute right-2.5"
               >
                 Subscribe
               </button>

@@ -388,7 +388,7 @@ const OurProducts = () => {
 
   return (
     <div id="projects" className="container mx-auto px-4 py-16">
-      <h2 className="capitalize jakarta text-[#4285F4] py-2 text-xl font-bold">
+      <h2 className="capitalize jakarta text-[#0b3369] py-2 text-xl font-bold">
         Our Top Projects
       </h2>
       <div className="flex justify-between items-center">
@@ -406,11 +406,11 @@ const OurProducts = () => {
                 className="w-full h-full object-cover rounded-t-lg mb-4"
               />
               <div className="flex gap-3 p-4">
-                <p className="inline-block py-2 px-4 jakarta rounded-lg font-semibold text-base leading-tight text-secondary-color bg-purple-100 group-hover:text-white group-hover:bg-[#4285F4] transition-colors duration-300 ease-in-out">
+                <p className="inline-block py-2 px-4 jakarta rounded-lg font-semibold text-base leading-tight text-secondary-color bg-purple-100 group-hover:text-white group-hover:bg-[#0b3369] transition-colors duration-300 ease-in-out">
                   {project.industry}
                 </p>
               </div>
-              <h3 className="text-[#0C1523] font-semibold md:text-4xl text-2xl jakarta mb-10 p-4 group-hover:text-[#4285F4]">
+              <h3 className="text-[#0C1523] font-semibold md:text-4xl text-2xl jakarta mb-10 p-4 group-hover:text-[#0b3369]">
                 {project.name}
               </h3>
             </div>

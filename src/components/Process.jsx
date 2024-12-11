@@ -1,6 +1,6 @@
 const Process = () => {
   return (
-    <div className="bg-gradient-to-tr from-blue-300 to-white relative overflow-hidden px-5 md:p-28 group">
+    <div className="bg-gradient-to-tr from-blue-200 to-white relative overflow-hidden px-5 md:p-28 group">
       <img
         src="/shape2.png"
         alt="stats"
@@ -20,10 +20,10 @@ const Process = () => {
         <div className="w-full mt-10">
           <div className="flex flex-col md:flex-row gap-10">
             <div className="border rounded-full p-5 md:w-72 md:h-72 w-80 h-80 flex bg-white items-center justify-center flex-col gap-2 text-center shadow-sm">
-              <h2 className=" text-center text-[#4285F4] text-3xl md:text-5xl jakarta font-bold">
+              <h2 className=" text-center text-[#0b3369] text-3xl md:text-5xl jakarta font-bold">
                 01
               </h2>
-              <h3 className="text-xl md:text-xl text-[#4285F4] jakarta font-bold">
+              <h3 className="text-xl md:text-xl text-[#0b3369] jakarta font-bold">
                 Discovery
               </h3>
               <p className="] text-sm  lexend">
@@ -32,10 +32,10 @@ const Process = () => {
               </p>
             </div>
             <div className="border rounded-full ml-8 md:ml-0 mt-5 p-5 md:w-72 md:h-72  bg-white w-80 h-80 flex items-center justify-center flex-col gap-2 text-center shadow-sm">
-              <h2 className=" text-[#4285F4] text-center text-3xl md:text-5xl jakarta font-bold">
+              <h2 className=" text-[#0b3369] text-center text-3xl md:text-5xl jakarta font-bold">
                 02
               </h2>
-              <h3 className=" text-[#4285F4] text-xl md:text-xl jakarta font-bold">
+              <h3 className=" text-[#0b3369] text-xl md:text-xl jakarta font-bold">
                 Analytical Assesment
               </h3>
               <p className=" text-sm text-center  lexend">
@@ -46,10 +46,10 @@ const Process = () => {
           </div>
           <div className="flex flex-col md:flex-row gap-10 mt-10">
             <div className="border rounded-full p-5 md:w-72 bg-white  md:h-72 w-80 h-80 flex items-center justify-center flex-col gap-2 text-center shadow-sm">
-              <h2 className=" text-[#4285F4] text-center text-3xl md:text-5xl jakarta font-bold">
+              <h2 className=" text-[#0b3369] text-center text-3xl md:text-5xl jakarta font-bold">
                 03
               </h2>
-              <h3 className=" text-[#4285F4] text-xl md:text-xl jakarta font-bold">
+              <h3 className=" text-[#0b3369] text-xl md:text-xl jakarta font-bold">
                 Implementation
               </h3>
               <p className=" text-sm  lexend ">
@@ -57,10 +57,10 @@ const Process = () => {
               </p>
             </div>
             <div className="border rounded-full bg-white  ml-8 md:ml-0 mt-5 p-5 md:w-72 md:h-72 w-80 h-80 flex items-center justify-center flex-col gap-2 text-center shadow-sm">
-              <h2 className="text-[#4285F4] text-center text-3xl md:text-5xl jakarta font-bold">
+              <h2 className="text-[#0b3369] text-center text-3xl md:text-5xl jakarta font-bold">
                 04
               </h2>
-              <h3 className="text-[#4285F4] text-xl md:text-xl jakarta font-bold">
+              <h3 className="text-[#0b3369] text-xl md:text-xl jakarta font-bold">
                 Monitoring and Reporting
               </h3>
               <p className=" text-sm text-center  lexend">
@@ -71,12 +71,6 @@ const Process = () => {
           </div>
         </div>
       </div>
-
-      <img
-        src="/shape.png"
-        alt="shape"
-        className="absolute bottom-0 left-0 transform translate-y-1/2 group-hover:translate-y-[20%] group-hover:translate-x-[-5%] transition-transform duration-300"
-      />
     </div>
   );
 };

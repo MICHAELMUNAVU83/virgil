@@ -8,12 +8,12 @@ const HomePage = () => {
           Software For Africa
         </h2>
         <p className="lexend text-sm md:text-xl text-center md:text-start mx-auto md:mx-0 font-normal w-[90%] md:w-[100%] text-[#585858] tracking-wide">
-         Develop, Test And Launch your technology products and assets wuth us.
+          Develop, Test And Launch your technology products and assets with us.
         </p>
         <div className="flex mx-auto w-[70%] md:mx-0 md:w-[100%] gap-5 mt-5">
           <a
             href="/#contact"
-            className="bg-[#4285F4] md:w-48 p-4  hover:scale-105 transition-all ease-in-out duration-500 jakarta font-bold rounded-lg md:text-xl flex justify-center items-center text-white"
+            className="bg-[#0b3369] md:w-48 p-4  hover:scale-105 transition-all ease-in-out duration-500 jakarta font-bold rounded-lg md:text-xl flex justify-center items-center text-white"
           >
             Reach Out
           </a>

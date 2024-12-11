@@ -2,7 +2,7 @@ const Clients = () => {
   return (
     <>
       <div id="clients" className="min-h-screen flex flex-col items-center">
-        <h3 className="capitalize text-[#4285F4] jakarta text-center py-10 text-xl font-bold">
+        <h3 className="capitalize text-[#0b3369] jakarta text-center py-10 text-xl font-bold">
           Who are our clients
         </h3>
 
@@ -19,8 +19,8 @@ const Clients = () => {
                 className="w-full h-96 object-cover rounded-t-lg mb-4"
               />
               <div className="absolute inset-0 flex justify-between items-center pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="w-6 h-2/3 bg-[#4285F4] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                <div className="w-6 h-2/3 bg-[#4285F4] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-right"></div>
+                <div className="w-6 h-2/3 bg-[#0b3369] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+                <div className="w-6 h-2/3 bg-[#0b3369] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-right"></div>
               </div>
             </div>
             <h2 className="text-3xl font-semibold jakarta mb-2">Individuals</h2>
@@ -38,8 +38,8 @@ const Clients = () => {
                 className="w-full h-96 object-cover rounded-t-lg mb-4"
               />
               <div className="absolute inset-0 flex justify-between items-center pointer-events-none">
-                <div className="w-6 h-2/3 bg-[#4285F4] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                <div className="w-6 h-2/3 bg-[#4285F4] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-right"></div>
+                <div className="w-6 h-2/3 bg-[#0b3369] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+                <div className="w-6 h-2/3 bg-[#0b3369] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-right"></div>
               </div>
             </div>
             <h2 className="text-3xl font-semibold jakarta mb-2">Startups</h2>
@@ -56,8 +56,8 @@ const Clients = () => {
                 className="w-full h-96 object-cover rounded-t-lg mb-4"
               />
               <div className="absolute inset-0 flex justify-between items-center pointer-events-none">
-                <div className="w-6 h-2/3 bg-[#4285F4] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                <div className="w-6 h-2/3 bg-[#4285F4] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-right"></div>
+                <div className="w-6 h-2/3 bg-[#0b3369] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+                <div className="w-6 h-2/3 bg-[#0b3369] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-right"></div>
               </div>
             </div>
             <h2 className="text-3xl font-semibold mb-2">Enterprises</h2>
@@ -70,7 +70,7 @@ const Clients = () => {
         <div class="my-16">
           <a
             href="#contact"
-            className="bg-[#4285F4] lexend hover:scale-105  transition-all ease-in-out duration-500 border-2 border-gray-100 mt-10 text-white text-xl font-bold p-4 rounded-md w-40"
+            className="bg-[#0b3369] lexend hover:scale-105  transition-all ease-in-out duration-500 border-2 border-gray-100 mt-10 text-white text-xl font-bold p-4 rounded-md w-40"
           >
             Contact Us
           </a>

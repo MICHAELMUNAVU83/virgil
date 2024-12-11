@@ -15,7 +15,7 @@ function Services() {
         className="flex flex-col items-center justify-center"
       >
         <div className="text-center mx-auto font-bold">
-          <h3 className="text-xl text-[#4285F4] jakarta md:pb-0 pb-5">
+          <h3 className="text-xl text-[#0b3369] jakarta md:pb-0 pb-5">
             Our services
           </h3>
           <p className="text-center text-xl jakarta md:text-5xl md:w-[60%] md:pt-10 mx-auto font-bold">
@@ -38,7 +38,7 @@ function Services() {
               />
               yrctvu
             </div>
-            <h3 className="text-2xl font-bold text-[#4285F4] mb-4 jakarta">
+            <h3 className="text-2xl font-bold text-[#0b3369] mb-4 jakarta">
               {service.name}
             </h3>
             <p className="text-[#585858] md:text-xl inter tracking-wide">

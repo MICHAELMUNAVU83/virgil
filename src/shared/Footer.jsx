@@ -6,11 +6,11 @@ import { IoMdMail } from "react-icons/io";
 
 function Footer() {
   return (
-    <div className="text-[#585858] inter py-16 bg-gradient-to-tr from-blue-200  to-white h-full">
+    <div className=" inter py-16 bg-gradient-to-tr from-blue-200  to-white h-full">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20 2xl:px-24">
         <div className="grid grid-cols-1 md:grid-cols-3 w-[100%] gap-8">
           <div>
-            <h1 className="jakarta text-3xl text-[#4285F4] font-bold">
+            <h1 className="jakarta text-3xl text-[#0b3369] font-bold">
               Virgil Africa
             </h1>
 
@@ -35,7 +35,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xl  text-[#4285F4] md:text-2xl jakarta font-bold mb-2">
+            <h3 className="text-xl  text-[#0b3369] md:text-2xl jakarta font-bold mb-2">
               Quick Links
             </h3>
             <ul className="space-y-2 lexend">
@@ -78,7 +78,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xl jakarta  text-[#4285F4] md:text-2xl font-bold mb-2">
+            <h3 className="text-xl jakarta  text-[#0b3369] md:text-2xl font-bold mb-2">
               Reach Out to Us
             </h3>
             <div class="flex text-md lexend flex-col gap-2">

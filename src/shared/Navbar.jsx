@@ -57,7 +57,7 @@ const NavBar = () => {
             href="https://calendar.app.google/kpakc9snjHMMzssv6"
             target="_blank"
             rel="noreferrer"
-            class="p-2 font-semibold bg-[#4285F4] rounded-md text-white "
+            class="p-2 font-semibold bg-[#0b3369] rounded-md text-white "
           >
             Book A Call
           </a>

@@ -403,7 +403,7 @@ const ProjectShow = () => {
     <div>
       <div class="pt-24 pb-20 w-[90%] m-auto flex flex-col gap-4">
         <div class="w-[100%] flex  flex-col gap-3 ">
-          <h1 className="text-3xl font-bold mt-4  text-[#4285F4] jakarta  md:text-6xl">
+          <h1 className="text-3xl font-bold mt-4  text-[#0b3369] jakarta  md:text-6xl">
             {project.name}
           </h1>
           <h1 className="mt-1 lexend   text-[#0C1523]  mb-10">
@@ -420,7 +420,7 @@ const ProjectShow = () => {
 
         <div class="w-[100%] flex md:flex-row flex-col gap-3 md:justify-between justify-between  mt-4">
           <div class="md:w-[55%] w-[100%] flex flex-col gap-4">
-            <p className="text-2xl  font-bold  text-[#4285F4] jakarta  ">
+            <p className="text-2xl  font-bold  text-[#0b3369] jakarta  ">
               {" "}
               Backrgound
             </p>
@@ -429,7 +429,7 @@ const ProjectShow = () => {
           <div class="md:w-[40%] w-[100%] border-[1px] rounded-md p-4 flex flex-col gap-2">
             <div class="flex flex-col gap-2">
               <div class="w-[100%] flex justify-between items-center">
-                <p className=" font-medium  text-[#4285F4] jakarta  ">
+                <p className=" font-medium  text-[#0b3369] jakarta  ">
                   Industry:
                 </p>
 
@@ -439,7 +439,7 @@ const ProjectShow = () => {
             </div>
 
             <div class="w-[100%]  flex flex-col  gap-1">
-              <p className=" font-medium  text-[#4285F4] jakarta  ">
+              <p className=" font-medium  text-[#0b3369] jakarta  ">
                 Services Used
               </p>
               <div class="flex flex-wrap lexend gap-2 w-[100%] ">
@@ -474,7 +474,7 @@ const ProjectShow = () => {
           </div>
 
           <div class="md:w-[40%] mt-8 w-[100%] flex flex-col gap-2">
-            <p className="md:text-5xl text-2xl font-bold mt-4 text-[#4285F4] jakarta ">
+            <p className="md:text-5xl text-2xl font-bold mt-4 text-[#0b3369] jakarta ">
               Solutions
             </p>
             <ul class="list-disc lexend p-4">
@@ -491,7 +491,7 @@ const ProjectShow = () => {
         </div>
         <div class="w-[100%] mt-12 flex md:flex-row flex-col gap-3 md:justify-between items-start">
           <div class="md:w-[40%] w-[100%] flex flex-col gap-2">
-            <p className="md:text-5xl text-2xl font-bold mt-4 text-[#4285F4] jakarta ">
+            <p className="md:text-5xl text-2xl font-bold mt-4 text-[#0b3369] jakarta ">
               Result
             </p>
             <p className="text-[#0C1523] lexend ">{project.result}</p>
@@ -508,18 +508,18 @@ const ProjectShow = () => {
       <div class="w-[100%] flex border-[1px] border-gray-500  justify-between">
         <div class="md:w-[40%] w-[45%] flex border-r-[1px] border-gray-500 md:py-8 py-5 justify-center items-center gap-3">
           <Link to={`/projects/${twoRandomProjects[0].redirect_link}`}>
-            <div class="flex items-center md:text-2xl font-bold text-xs text-[#4285F4] jakarta  gap-3">
+            <div class="flex items-center md:text-2xl font-bold text-xs text-[#0b3369] jakarta  gap-3">
               <FaArrowLeftLong />
               <p className="">{twoRandomProjects[0].name}</p>
             </div>
           </Link>
         </div>
         <div class="md:w-[20%] w-[10%] flex justify-center items-center border-r-[1px] border-gray-500  gap-3">
-          <IoGridSharp class="md:text-4xl text-[#4285F4]" />
+          <IoGridSharp class="md:text-4xl text-[#0b3369]" />
         </div>
         <div class="md:w-[40%] w-[45%] flex justify-center items-center gap-3">
           <Link to={`/projects/${twoRandomProjects[1].redirect_link}`}>
-            <div class="flex items-center  md:text-2xl font-bold text-xs text-[#4285F4] jakarta  gap-3">
+            <div class="flex items-center  md:text-2xl font-bold text-xs text-[#0b3369] jakarta  gap-3">
               <p className="">{twoRandomProjects[1].name}</p>
               <FaArrowRightLong />
             </div>

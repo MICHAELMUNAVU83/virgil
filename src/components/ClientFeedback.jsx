@@ -70,7 +70,7 @@ const ClientFeedback = () => {
         </div>
         <div className="lg:w-1/2 w-full p-4 flex flex-col justify-start">
           <div className="bg-white p-8">
-            <h2 className="text-[#4285F4] jakarta text-xl font-semibold ">
+            <h2 className="text-[#0b3369] jakarta text-xl font-semibold ">
               Client Feedback
             </h2>
             <h1 className="text-3xl font-bold mt-4 text-[#0C1523] jakarta  md:text-6xl mb-10">
@@ -92,7 +92,7 @@ const ClientFeedback = () => {
                       width="70"
                       height="70"
                       viewBox="0 0 24 24"
-                      fill="#4285F4"
+                      fill="#0b3369"
                       className="mb-10"
                     >
                       <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
@@ -104,7 +104,7 @@ const ClientFeedback = () => {
                       <p className="text-xl font-semibold p-2 jakarta text-black">
                         {testimonial.name}
                       </p>
-                      <p className="text-[#4285F4] p-2 jakarta">
+                      <p className="text-[#0b3369] p-2 jakarta">
                         {testimonial.location}
                       </p>
                     </footer>
@@ -115,7 +115,7 @@ const ClientFeedback = () => {
           </div>
           <div className="flex justify-start mt-6">
             <button
-              className="p-4 mx-2 bg-gray-200 rounded-full hover:bg-[#4285F4] transition-all ease-in-out duration-500 cursor-pointer"
+              className="p-4 mx-2 bg-gray-200 rounded-full hover:bg-[#0b3369] transition-all ease-in-out duration-500 cursor-pointer"
               onClick={swipeBack}
             >
               <svg
@@ -130,7 +130,7 @@ const ClientFeedback = () => {
               </svg>
             </button>
             <button
-              className="p-4 mx-2 bg-gray-200 rounded-full hover:bg-[#4285F4] transition-all ease-in-out duration-500 cursor-pointer"
+              className="p-4 mx-2 bg-gray-200 rounded-full hover:bg-[#0b3369] transition-all ease-in-out duration-500 cursor-pointer"
               onClick={swipe}
             >
               <svg
