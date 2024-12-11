@@ -32,7 +32,7 @@ const NavBar = () => {
     >
       <div className="max-w-[1240px] m-auto flex lexend justify-between items-center p-2 text-white">
         <Link to="/">
-          <img src="/logoo.png" alt="logo" className="w-12 object-cover" />
+          <img src="/logoo.png" alt="logo" className="w-24 object-cover" />
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <a href="/#services">
