@@ -5,13 +5,10 @@ const HomePage = () => {
     <div className="bg-gradient-to-tr flex flex-col gap-10 md:flex-row items-center justify-between md:pl-24 from-blue-200 pt-36 md:pt-28 to-white md:h-screen">
       <div className="w-[100%] flex flex-col gap-5">
         <h2 className="text-4xl mx-auto w-[90%] md:w-[100%] md:mx-0 md:text-7xl text-[#0c1523] jakarta text-center md:text-start font-bold">
-          Transforming ideas into inspiring experiences
+          Software For Africa
         </h2>
         <p className="lexend text-sm md:text-xl text-center md:text-start mx-auto md:mx-0 font-normal w-[90%] md:w-[100%] text-[#585858] tracking-wide">
-          We build innovative solutions for individuals, startups, and
-          enterprises to automate business processes, improve productivity, and
-          drive innovation. This can be landing pages, e-commerce, mobile apps,
-          Minimum Viable Products(MVPs), or complete digital products.
+         Develop, Test And Launch your technology products and assets wuth us.
         </p>
         <div className="flex mx-auto w-[70%] md:mx-0 md:w-[100%] gap-5 mt-5">
           <a

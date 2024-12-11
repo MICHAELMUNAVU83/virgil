@@ -3,43 +3,41 @@ const HomeServices = () => {
     {
       title: "Web Development",
       description:
-        "Crafting responsive, user-friendly websites that enhance your online presence and engage your audience effectively. We specialize in building tailored solutions that meet your specific business needs and goals.",
+        "We nurture your web and tech assets to optimum levels of perfomance to enhance your whole value proposition and delivery"
     },
     {
       title: "Systems Development",
       description:
-        "Creating robust and efficient systems tailored to streamline your business operations. Our solutions are designed to improve productivity, reduce costs, and scale with your growing business demands.",
+        "Creating augmented systems that bring efficiency and increase productivity to your business, while meeting your growing business needs"
     },
     {
       title: "AI and Machine Learning",
       description:
-        "Developing cutting-edge AI algorithms and machine learning models to drive innovation and efficiency in your operations. From predictive analytics to natural language processing, we empower businesses to leverage data-driven insights for strategic decision-making.",
+        "Make Smarter decisions powered by AI fueled by years of machine learning. We equip businesses to thrive in an advancing technological world"
     },
     {
       title: "Data Analysis",
       description:
-        "Turning complex data into actionable insights that drive business growth and competitive advantage. Our data analysis services help you uncover trends, patterns, and correlations that inform smart business decisions and optimize performance.",
+        "Analyze data at lightning speed to fuel your growth and stay ahead of competition"
     },
     {
       title: "Cloud Services",
       description:
-        "Providing scalable, secure, and reliable cloud solutions to modernize your IT infrastructure. Whether you need cloud migration, infrastructure management, or SaaS solutions, we deliver flexible and cost-effective cloud services tailored to your business needs.",
+        "Cost effective cloud computing facilities required for infrastructure management, SaaS products and cloud hosting services"
     },
     {
       title: "Database Management",
       description:
-        "Ensuring optimal performance and reliability of your software systems through expert database management. From database design and optimization to data security and backup, we provide comprehensive solutions that maximize uptime and efficiency.",
+        "Expert database management that ensures your software always delivers"
     },
   ];
 
   return (
     <div id="services">
       <h3 className="capitalize text-[#4285F4] text-center py-10 text-xl font-bold jakarta">
-        Our Services
+        Achieve The Extraordinary With Virgil
       </h3>
-      <h1 className="text-[#0C1523] jakarta text-center mx-auto w-[90%] md:w-[60%] font-bold text-3xl md:text-6xl">
-        How we help you
-      </h1>
+
       <div className="grid mt-14 md:mx-24 mx-5 cursor-pointer gap-10 md:grid-cols-2 grid-cols-1">
         {services.map((service, index) => (
           <div className="border-2 p-8 flex flex-col gap-5      transition-all ease-in-out duration-500 cursor-pointer hover:scale-105 hover:shadow-lg rounded-lg">

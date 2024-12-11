@@ -33,14 +33,13 @@ const Benefits = () => {
             </div>
             <div className="flex flex-col gap-3">
               <h3 className="text-[#0C1523] text-[28px] font-semibold jakarta">
-                We are a team of experts
+                We are Specialists
               </h3>
 
               <p className="text-[#585858] lexend  text-sm md:text-xl tracking-wide">
-                Our team is made up of experts in their respective fields. We
-                have developers, designers, project managers, and quality
-                assurance specialists who work together to deliver the best
-                results.
+                We house specialists in tech development , design, project
+                management and quality control whose main goal is to produce
+                tech solutions that actually work for your business
               </p>
             </div>
           </div>
@@ -70,14 +69,12 @@ const Benefits = () => {
             </div>
             <div className="flex flex-col gap-3">
               <h3 className="text-[#0C1523] text-[28px] font-semibold jakarta">
-                Customized solutions
+                Boutique solutions
               </h3>
 
               <p className="text-[#585858] lexend text-sm md:text-xl tracking-wide">
-                We understand that every business is unique, and that is why we
-                offer customized solutions to meet the needs of our clients. Our
-                solutions are tailored to your specific requirements and
-                objectives.
+                Each business is unique , so we deliver bespoke solutions
+                tailored to your needs and goals
               </p>
             </div>
           </div>

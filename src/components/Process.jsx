@@ -24,10 +24,11 @@ const Process = () => {
                 01
               </h2>
               <h3 className="text-xl md:text-xl text-[#4285F4] jakarta font-bold">
-                Assessment and Analysis
+                Discovery
               </h3>
               <p className="] text-sm  lexend">
-                The process begins by thoroughly understanding your objectives.
+                Stage one is where we discover your objectives and existing
+                challenges.
               </p>
             </div>
             <div className="border rounded-full ml-8 md:ml-0 mt-5 p-5 md:w-72 md:h-72  bg-white w-80 h-80 flex items-center justify-center flex-col gap-2 text-center shadow-sm">
@@ -35,10 +36,11 @@ const Process = () => {
                 02
               </h2>
               <h3 className=" text-[#4285F4] text-xl md:text-xl jakarta font-bold">
-                Current State Evaluation
+                Analytical Assesment
               </h3>
               <p className=" text-sm text-center  lexend">
-                Assess your existing IT infrastructure, systems, and processes
+                Deepr , data driven evaluation that involves both assessing and
+                analyzing the infrastructural system and process.
               </p>
             </div>
           </div>
@@ -48,11 +50,10 @@ const Process = () => {
                 03
               </h2>
               <h3 className=" text-[#4285F4] text-xl md:text-xl jakarta font-bold">
-                Implementation and Execution
+                Implementation
               </h3>
               <p className=" text-sm  lexend ">
-                We Execute the project plan, which involves deploying new
-                software, hardware and IT processes.
+                This stage deployes new software and IT Processes.
               </p>
             </div>
             <div className="border rounded-full bg-white  ml-8 md:ml-0 mt-5 p-5 md:w-72 md:h-72 w-80 h-80 flex items-center justify-center flex-col gap-2 text-center shadow-sm">
@@ -60,11 +61,11 @@ const Process = () => {
                 04
               </h2>
               <h3 className="text-[#4285F4] text-xl md:text-xl jakarta font-bold">
-                Evaluation and Maintenance
+                Monitoring and Reporting
               </h3>
               <p className=" text-sm text-center  lexend">
-                We Assess the results of the implemented solutions against the
-                predefined goals
+                We track feedback from the implimented solutions against the
+                predefined goals.
               </p>
             </div>
           </div>

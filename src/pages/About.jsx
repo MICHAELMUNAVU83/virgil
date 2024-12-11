@@ -31,13 +31,11 @@ const About = () => {
             <h1 className="text-[#432CF2] inter text-xl jakarta font-bold">
               About Us
             </h1>
-            <h2 className="jakarta font-bold text-2xl md:text-5xl w-[80%]">
-              About our startup company.
-            </h2>
+
             <p className="text-[#585858] inter tracking-wide md:text-2xl">
-              Tech startup: Empowering industries, driving innovation, and
-              shaping tomorrow's digital landscape with groundbreaking solutions
-              that enhance user experiences.
+              Virgil Africa is a technology company revolutionizing how
+              individuals , startups and enterprises innovate, automate, and
+              accelerate their success.
             </p>
             <Link to="/contact">
               <button className="bg-[#432CF2] jakarta hover:bg-black text-white text-xl px-5 py-3 rounded-lg">
@@ -151,7 +149,7 @@ const About = () => {
 
               <div className="md:flex justify-between items-center">
                 <h1 className="uppercase jakarta text-xl md:text-2xl font-bold md:w-[30%] text-[#0C1523]">
-                  Meet the amazing team behind Novello
+                  Meet the amazing team behind Virgil
                 </h1>
 
                 <div className="flex md:justify-center gap-4 md:gap-8 md:pt-0 pt-5">
