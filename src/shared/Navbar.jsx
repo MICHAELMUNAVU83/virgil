@@ -5,18 +5,18 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("black");
-  const [shadow, setShadow] = useState("")
+  const [shadow, setShadow] = useState("");
 
   useEffect(() => {
     const changeBackground = () => {
       if (window.scrollY >= 80) {
         setColor("white");
         setTextColor("black");
-        setShadow("md")
+        setShadow("md");
       } else {
         setColor("transparent");
         setTextColor("black");
-        setShadow("")
+        setShadow("");
       }
     };
     window.addEventListener("scroll", changeBackground);
@@ -32,7 +32,7 @@ const NavBar = () => {
     >
       <div className="max-w-[1240px] m-auto flex lexend justify-between items-center p-2 text-white">
         <Link to="/">
-          <img src="/logo.png" alt="logo" className="w-12 object-cover" />
+          <img src="/logoo.png" alt="logo" className="w-12 object-cover" />
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <a href="/#services">
