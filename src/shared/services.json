@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "../../public/assets/consulting-icon.svg",
+    "name": "Web development",
+    "description": "Encompasses building and maintaining websites, including front-end (user interface) and back-end (server-side) development."
+  },
+  {
+    "icon": "../../public/assets/ai.svg",
+    "name": "AI and Machine Learning",
+    "description": "Leveraging cutting-edge technologies to build intelligent systems that learn from data, automate processes, and enhance decision-making capabilities."
+  },
+  {
+    "icon": "../../public/assets/accounting-icon.svg",
+    "name": "Mobile App Development",
+    "description": "Creating captivating and user-friendly mobile applications that engage your audience and enhance your brand presence is a crucial aspect of business."
+  },
+  {
+    "icon": "../../public/assets/marketing-icon.svg",
+    "name": "Cloud Services and Migration",
+    "description": "Transitioning your business to the cloud, unlocking scalability, efficiency, and enhanced collaboration across your organization."
+  },
+  {
+    "icon": "../../public/assets/app-development-icon.svg",
+    "name": "Data Analytics and Insights",
+    "description": "Unlocking the power of data to make informed decisions, identify trends, and gain a competitive edge in your industry."
+  },
+  {
+    "icon": "../../public/assets/design-icon.svg",
+    "name": "Product Design",
+    "description": "Startups focusing on creating innovative products require product design services to develop unique and impactful products that meet market demands."
+  }
+]

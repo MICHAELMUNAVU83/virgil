@@ -1,0 +1,32 @@
+[
+  {
+    "image": "../../public/assets/1.jpeg",
+    "name": "Alice Johnson",
+    "position": "Chief Innovation Officer"
+  },
+  {
+    "image": "../../public/assets/2.jpeg",
+    "name": "Bob Smith",
+    "position": "Agile Coach"
+  },
+  {
+    "image": "../../public/assets/3.jpeg",
+    "name": "Carol Martinez",
+    "position": "Head of Product Development"
+  },
+  {
+    "image": "../../public/assets/4.jpeg",
+    "name": "David Lee",
+    "position": "Collaboration Manager"
+  },
+  {
+    "image": "../../public/assets/5.jpeg",
+    "name": "Eve Davis",
+    "position": "Customer Success Manager"
+  },
+  {
+    "image": "../../public/assets/6.jpeg",
+    "name": "Frank Wilson",
+    "position": "Transparency Officer"
+  }
+]
